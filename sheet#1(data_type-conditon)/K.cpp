@@ -1,16 +1,14 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-int main(){
-    int a,b,c;
-    cin >> a >>b>>c;
-    int mx = 0;
-    int mn= 0;
+int main() {
+    long long a, b, c;
+    cin >> a >> b >> c;
 
+    int mn = min({a, b, c});
+    int mx = max({a, b, c});
+    cout << mn << " " << mx << "\n";
 
-    if(a>b && a > c){
-        mx = a;
-    }else if(b>)
-
-
+    return 0;
 }
