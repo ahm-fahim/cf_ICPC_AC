@@ -6,4 +6,10 @@ int main(){
     char s;
     cin>> a>>s>>b;
 
+    if(s=='+')cout<<(a+b)<<"\n";
+    if(s=='-')cout<<(a-b)<<"\n";
+    if(s=='*')cout<<(a*b)<<"\n";
+    if(s=='/')cout<<(a/b)<<"\n";
+
+    return 0;
 }
